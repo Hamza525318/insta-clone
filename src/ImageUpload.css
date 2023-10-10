@@ -1,0 +1,9 @@
+.image_upload{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px auto;
+}
+.progress_bar{
+    width: 100%;
+}

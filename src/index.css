@@ -1,0 +1,61 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x:hidden;
+}
+.App{
+  background-color: #fafafa;
+  height: 100vh;
+}
+.appHeader{
+  position: sticky;
+  z-index: 4;
+  object-fit: contain;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 24;
+  padding: 20px 25px;
+ 
+}
+.form_signup{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  
+
+}
+.insta_logo{
+  width: 100px;
+}
+.signup_input{
+  padding: 15px 0px;
+}
+.login_btns{
+  background-color: red;
+  color: white;
+  padding: 4px 15px;
+  border-radius: 10px;
+}
+.insta_logo{
+  object-fit: contain;
+}
+.app_posts{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-around;
+  
+}
